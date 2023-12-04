@@ -4,12 +4,15 @@
   "description": "site",
   "main": "meadowlark.js",
   "scripts": {
-    "test": "test meadowlark.js"
+    "test": "jest"
   },
   "author": "AlexSh",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
